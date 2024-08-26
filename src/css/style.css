@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+    @font-face {
+      font-family: 'Russo-One';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(/fontes/RussoOne-Regular.ttf) format('ttf');
+    }
+    @font-face{
+      font-family: 'Raleway-Regular' ;
+      font-style: normal;
+      font-weight: 400;
+      font-display:swap;
+      src:url(/fontes/Raleway/static/Raleway-Regular.ttf) format('ttf');
+       
+
+    }
+    
+
+
