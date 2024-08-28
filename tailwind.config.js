@@ -28,6 +28,10 @@ module.exports = {
         'Russo-One-Regular':['Russo-One'],
         'Raleway-Reular':['Raleway-Regular']
       },
+      screens:{
+        'celular':'310px' 
+
+      }
   },
    plugins: [
     plugin(function ({ matchUtilities, theme }) {
