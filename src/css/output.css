@@ -570,6 +570,10 @@ video {
   top: 0px;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -580,18 +584,6 @@ video {
 
 .z-20 {
   z-index: 20;
-}
-
-.col-auto {
-  grid-column: auto;
-}
-
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
-.col-span-full {
-  grid-column: 1 / -1;
 }
 
 .col-span-3 {
@@ -610,28 +602,12 @@ video {
   grid-column-end: 2;
 }
 
-.col-end-4 {
-  grid-column-end: 4;
-}
-
 .col-end-3 {
   grid-column-end: 3;
 }
 
-.row-auto {
-  grid-row: auto;
-}
-
 .row-span-1 {
   grid-row: span 1 / span 1;
-}
-
-.row-span-full {
-  grid-row: 1 / -1;
-}
-
-.row-span-4 {
-  grid-row: span 4 / span 4;
 }
 
 .row-span-3 {
@@ -658,24 +634,12 @@ video {
   grid-row-end: 2;
 }
 
-.row-end-3 {
-  grid-row-end: 3;
-}
-
-.row-end-4 {
-  grid-row-end: 4;
+.row-end-6 {
+  grid-row-end: 6;
 }
 
 .m-0 {
   margin: 0px;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
 }
 
 .box-border {
@@ -698,6 +662,10 @@ video {
   display: grid;
 }
 
+.h-1\/5 {
+  height: 20%;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -706,16 +674,16 @@ video {
   height: 5rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .w-20 {
@@ -730,9 +698,8 @@ video {
   width: 100vw;
 }
 
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
+.auto-cols-fr {
+  grid-auto-columns: minmax(0, 1fr);
 }
 
 .auto-cols-max {
@@ -743,48 +710,40 @@ video {
   grid-auto-columns: min-content;
 }
 
+.auto-cols-auto {
+  grid-auto-columns: auto;
+}
+
+.auto-rows-fr {
+  grid-auto-rows: minmax(0, 1fr);
+}
+
+.auto-rows-max {
+  grid-auto-rows: max-content;
+}
+
 .auto-rows-min {
   grid-auto-rows: min-content;
+}
+
+.auto-rows-auto {
+  grid-auto-rows: auto;
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-6 {
-  grid-template-rows: repeat(6, minmax(0, 1fr));
-}
-
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
-.grid-rows-5 {
-  grid-template-rows: repeat(5, minmax(0, 1fr));
+.grid-rows-row-3-fit {
+  grid-template-rows: repeat(auto-fill, minmax(100px,1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -799,6 +758,10 @@ video {
   flex-wrap: wrap;
 }
 
+.content-start {
+  align-content: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -811,20 +774,12 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .justify-around {
   justify-content: space-around;
 }
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.justify-items-start {
-  justify-items: start;
 }
 
 .justify-items-center {
@@ -843,10 +798,6 @@ video {
   overflow: hidden;
 }
 
-.overscroll-none {
-  overscroll-behavior: none;
-}
-
 .text-wrap {
   text-wrap: wrap;
 }
@@ -855,24 +806,19 @@ video {
   text-wrap: nowrap;
 }
 
-.border-l-green-200 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(187 247 208 / var(--tw-border-opacity));
-}
-
 .border-l-green-600 {
   --tw-border-opacity: 1;
   border-left-color: rgb(22 163 74 / var(--tw-border-opacity));
 }
 
-.bg-blue-2 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 85 166 / var(--tw-bg-opacity));
-}
-
 .bg-blue-3 {
   --tw-bg-opacity: 1;
   background-color: rgb(106 154 217 / var(--tw-bg-opacity));
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
 .bg-marfin {
@@ -886,11 +832,6 @@ video {
 
 .p-16 {
   padding: 4rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .py-5 {
@@ -985,10 +926,6 @@ video {
 
   .celular\:ml-4 {
     margin-left: 1rem;
-  }
-
-  .celular\:w-full {
-    width: 100%;
   }
 
   .celular\:text-nowrap {

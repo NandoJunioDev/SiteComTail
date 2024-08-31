@@ -31,7 +31,10 @@ module.exports = {
       screens:{
         'celular':'310px' 
 
-      }
+      },
+      gridTemplateRows:{
+        'row-3-fit':'repeat(auto-fill, minmax(100px,1fr))'
+      },
   },
    plugins: [
     plugin(function ({ matchUtilities, theme }) {
