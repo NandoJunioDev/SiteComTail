@@ -19,6 +19,15 @@
        
 
     }
+
+    @layer components{
+      .text-header{
+        @apply font-Raleway-Reular  font-medium text-white;  
+      }
+      .text-body{
+        @apply font-Russo-One-Regular text-white 
+      }
+    }
     
 
 
