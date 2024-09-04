@@ -1067,6 +1067,10 @@ video {
 }
 
 @media (max-width: 500px) {
+  .celular\:hidden {
+    display: none;
+  }
+
   .celular\:items-start {
     align-items: flex-start;
   }
@@ -1081,6 +1085,16 @@ video {
 
   .celular\:justify-self-start {
     justify-self: start;
+  }
+
+  .celular\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .celular\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
     
