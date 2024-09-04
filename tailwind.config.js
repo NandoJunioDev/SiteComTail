@@ -29,7 +29,7 @@ module.exports = {
         'Raleway-Reular':['Raleway-Regular']
       },
       screens:{
-        'celular':{'max': '420px'}
+        'celular':{'max': '500px'}
 
       },
       gridTemplateRows:{
