@@ -554,320 +554,36 @@ video {
   --tw-contain-style:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
-.col-auto {
-  grid-column: auto;
-}
-
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
-.col-span-full {
-  grid-column: 1 / -1;
-}
-
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
-
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-end-2 {
-  grid-column-end: 2;
-}
-
-.col-end-4 {
-  grid-column-end: 4;
-}
-
-.col-end-3 {
-  grid-column-end: 3;
-}
-
-.row-auto {
-  grid-row: auto;
-}
-
-.row-span-1 {
-  grid-row: span 1 / span 1;
-}
-
-.row-span-full {
-  grid-row: 1 / -1;
-}
-
-.row-span-4 {
-  grid-row: span 4 / span 4;
-}
-
-.row-span-3 {
-  grid-row: span 3 / span 3;
-}
-
-.row-start-1 {
-  grid-row-start: 1;
-}
-
-.row-start-2 {
-  grid-row-start: 2;
-}
-
-.row-start-4 {
-  grid-row-start: 4;
-}
-
-.row-end-1 {
-  grid-row-end: 1;
-}
-
-.row-end-2 {
-  grid-row-end: 2;
-}
-
-.row-end-3 {
-  grid-row-end: 3;
-}
-
-.row-end-4 {
-  grid-row-end: 4;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.box-border {
-  box-sizing: border-box;
-}
-
-.block {
-  display: block;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.flex {
-  display: flex;
-}
-
 .grid {
   display: grid;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-screen {
   height: 100vh;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .w-screen {
   width: 100vw;
-}
-
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
-.auto-cols-max {
-  grid-auto-columns: max-content;
-}
-
-.auto-cols-min {
-  grid-auto-columns: min-content;
-}
-
-.auto-rows-min {
-  grid-auto-rows: min-content;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-6 {
-  grid-template-rows: repeat(6, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
 .grid-rows-5 {
   grid-template-rows: repeat(5, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
   align-items: center;
 }
 
-.items-baseline {
-  align-items: baseline;
-}
-
 .justify-center {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-items-start {
-  justify-items: start;
-}
-
 .justify-items-center {
   justify-items: center;
-}
-
-.self-center {
-  align-self: center;
-}
-
-.justify-self-center {
-  justify-self: center;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overscroll-none {
-  overscroll-behavior: none;
-}
-
-.text-wrap {
-  text-wrap: wrap;
-}
-
-.text-nowrap {
-  text-wrap: nowrap;
-}
-
-.border-l-green-200 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(187 247 208 / var(--tw-border-opacity));
-}
-
-.border-l-green-600 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(22 163 74 / var(--tw-border-opacity));
-}
-
-.bg-blue-2 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 85 166 / var(--tw-bg-opacity));
 }
 
 .bg-blue-3 {
@@ -875,83 +591,13 @@ video {
   background-color: rgb(106 154 217 / var(--tw-bg-opacity));
 }
 
-.bg-marfin {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 152 95 / var(--tw-bg-opacity));
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-16 {
-  padding: 4rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
 .font-Raleway-Reular {
   font-family: Raleway-Regular;
-}
-
-.font-Russo-One-Regular {
-  font-family: Russo-One;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.shadow-black {
-  --tw-shadow-color: #000;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.brightness-25 {
-  --tw-brightness: brightness(.25);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.contrast-100 {
-  --tw-contrast: contrast(1);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @font-face {
@@ -976,42 +622,6 @@ video {
   font-display:swap;
 
   src:url(/fontes/Raleway/static/Raleway-Regular.ttf) format('ttf');
-}
-
-@media (min-width: 310px) {
-  .celular\:invisible {
-    visibility: hidden;
-  }
-
-  .celular\:ml-4 {
-    margin-left: 1rem;
-  }
-
-  .celular\:w-full {
-    width: 100%;
-  }
-
-  .celular\:text-nowrap {
-    text-wrap: nowrap;
-  }
-
-  .celular\:text-center {
-    text-align: center;
-  }
-
-  .celular\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .celular\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .celular\:font-semibold {
-    font-weight: 600;
-  }
 }
     
 
